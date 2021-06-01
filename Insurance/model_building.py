@@ -15,8 +15,6 @@ data = pd.read_csv('insurance.csv')
 
 print(data.info())
 
-data.columns
-
 # get dummies for categorical data
 data_dum = pd.get_dummies(data)
 
@@ -103,10 +101,10 @@ print("Best Parameters: {}".format(best_parameters))
 
 est = GradientBoostingRegressor(n_estimators=120, learning_rate=0.1, random_state=0, loss='huber')
 est.fit(X_train, y_train.values.ravel())
-n_scores = cross_val_score(est, X_train, y_train.values.ravel(), scoring='neg_mean_absolute_error', cv=cv, n_jobs=-1)
+n_scores = cross_val_score(est, X_train, y_train.values.ravel(), scoring='neg_mean_absolute_error', cv=10, n_jobs=-1)
 print('MAE: {:.3f} {:.3f}'.format(n_scores.mean()*-1, n_scores.std()))
 # the gradient boosted random forests turns out to be way better than any other model so far
-# it is giving an MAE of about $ 1800
+# it is giving an MAE of about $ 1700
 
 # testing all the models
 
@@ -132,9 +130,12 @@ mae_gbrf = mean_absolute_error(y_test, gbrf_pred)
 print("MAE for Linear Regression: {:.2f}".format(mae_lr))
 print("MAE for Lasso Regression: {:.2f}".format(mae_clf))
 print("MAE for Random Forrest Regression: {:.2f}".format(mae_rfr))
-print("MAE for Gradient Boosted Random Forrest: {:.2f}".format(mae_gbrf))
+print("MAE for Gradient Boosted Random Forest: {:.2f}".format(mae_gbrf))
 
+# Gradient Boosted Random Forest was the best model of all the other models 
 
+# productionizing the model
 
-
-
+import pickle
+pickl = {'model': est}
+pickle.dump(pickl, open('model_file' + '.p', 'wb'))
