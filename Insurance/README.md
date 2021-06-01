@@ -1,4 +1,4 @@
-# Insurance Prediction Project
+# Insurance Prediction Project 🏥
 
 ## Motivation
 
