@@ -24,9 +24,10 @@ The dataset has various attributes such as age, number of children and such. The
 
 ## Exploratory Data Analysis
 
-![Corr Plot]()
-![Bar Plot]()
-![Box Plot]()
+![Corr Plot](https://github.com/rajatrc1705/DataScienceProjects/blob/main/Insurance/Images/corr_plot.png)
+![Bar Plot](https://github.com/rajatrc1705/DataScienceProjects/blob/main/Insurance/Images/bar_plot.png)
+![Box Plot](https://github.com/rajatrc1705/DataScienceProjects/blob/main/Insurance/Images/box_plot.png)
+
 ## Model Building
 
 I tried 4 different regression models, Multiple Linear Regression, Lasso Regression, Random Forests and Gradient Boosted Random Forests. The metric I used was Mean Absolute Error. I split the dataset with 75-25 train test split.
