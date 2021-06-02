@@ -22,6 +22,11 @@ I wanted to get started with some basic algorithms that are used in Data Science
 Although I have a profound interest in collecting my own data, I came across this dataset on [Kaggle](https://www.kaggle.com/mirichoi0218/insurance).
 The dataset has various attributes such as age, number of children and such. The primary motive of this dataset is to be able to predict the amount of insurance 💲 money used by the person.
 
+## Exploratory Data Analysis
+
+![Corr Plot]()
+![Bar Plot]()
+![Box Plot]()
 ## Model Building
 
 I tried 4 different regression models, Multiple Linear Regression, Lasso Regression, Random Forests and Gradient Boosted Random Forests. The metric I used was Mean Absolute Error. I split the dataset with 75-25 train test split.
