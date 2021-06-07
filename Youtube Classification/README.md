@@ -1,4 +1,4 @@
-# Youtube Video Classification [WIP]
+# Youtube Video Classification 📽[WIP]
 
 ## Dataset 💾
 
@@ -7,8 +7,8 @@ I scraped the following things from each video:
  - Link
  - Title
  - Description
-<br>
-I queried the videos for 4 categories:<br><br>
+
+I queried the videos for 4 categories:<br>
 
  - Travel Vlogs
  - Food
@@ -17,4 +17,11 @@ I queried the videos for 4 categories:<br><br>
 
 ## Data Cleaning 🧹
 
+ 1. Converting to lower case, and removed all punctuations and numeric data
+ 2. Removed extra spaces and tokenized the data
+ 3. Added common words like "subscribe", "instagram", "facebook", "contact" to the <b>stopwords</b> set, and removed all the stop words.
+ 4. Removing words containing "http", "gmail", "email" and the like
+ 5. Lemmatization using <b>Porter Scanner</b>
+
+## Data Preprocessing 
 

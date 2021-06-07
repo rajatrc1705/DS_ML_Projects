@@ -1,7 +1,6 @@
 # Data Science Projects 💻🧪
 
 This is where most of my Data Science Projects are kept! All projects have been categorized into different categories. <hr>
-<br>
 <b>Regression</b>
 - [Health Insurance](https://github.com/rajatrc1705/DataScienceProjects/tree/main/Insurance) 🏥
 
