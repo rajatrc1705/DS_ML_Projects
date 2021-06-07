@@ -1,5 +1,7 @@
 # Youtube Video Classification 📽[WIP]
 
+Scraped data from Youtube (~3600 videos) using Selenium. <br>Sanitized the data, tokenized, lemmatized it. <br>Used TfidfVectorizer to extract features from descriptions and built different classifier models. <br>Accuracy metrics used: Log loss, F1 Score. <br>Best model by Log loss is Naive Bayes.
+
 ## Dataset 💾
 
 I could have used a ready made API, but just for the fun of it, I scraped the data from [Youtube](https://www.youtube.com/) using <b>Selenium</b>. The total number of videos scraped was <b>3600</b>. 
