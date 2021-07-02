@@ -6,3 +6,6 @@ This is where most of my Data Science Projects are kept! All projects have been 
 
 <b>Classification and NLP</b>
 - [Youtube Video Classification](https://github.com/rajatrc1705/DS_ML_Projects/tree/main/Youtube%20Classification) 📽
+
+<b>Scrapers</b>
+- [Football Data Scrapers](https://github.com/rajatrc1705/Football-Scrapers) 🥅⚽🦶
