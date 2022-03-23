@@ -44,3 +44,4 @@ I queried the videos for 4 categories:<br>
 ## 📒 To Do :  
   - Train an LSTM model.
   - Productionize with Flask API
+  - Put out code for model 
