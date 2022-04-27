@@ -4,6 +4,8 @@ Scraped data from Youtube (~3600 videos) using Selenium. <br>Sanitized the data,
 
 ## Dataset 💾
 
+[Kaggle Link For Dataset](https://www.kaggle.com/datasets/rajatrc1705/youtube-videos-dataset)
+
 I could have used a ready made API, but just for the fun of it, I scraped the data from [Youtube](https://www.youtube.com/) using <b>Selenium</b>. The total number of videos scraped was <b>3600</b>. 
 I scraped the following things from each video:
  - Link
