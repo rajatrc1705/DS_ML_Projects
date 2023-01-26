@@ -11,6 +11,10 @@ Languages: R, Python
 
 - [Multi Dimensional Scaling and PCoA](https://github.com/rajatrc1705/DS_ML_Projects/tree/main/Mathematics%20and%20Statistics/Multi%20Dimensional%20Scaling%20PCoA)
 
+<b>Miscellaneous R Script Implementations </b>
+
+- [Plotting a Function in R](https://github.com/rajatrc1705/DS_ML_Projects/blob/main/Mathematics%20and%20Statistics/Plotting%20a%20Function.R)
+
 ## Portfolio 💻🧪
 
 This is where most of my Data Science Projects are kept! All projects have been categorized into different categories. <hr>
