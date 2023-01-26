@@ -15,9 +15,13 @@ Languages: R, Python
 
 - [Plotting a Function in R](https://github.com/rajatrc1705/DS_ML_Projects/blob/main/Mathematics%20and%20Statistics/Plotting%20a%20Function.R)
 
-## Portfolio 💻🧪
+## Data Science Projects 💻🧪
 
 This is where most of my Data Science Projects are kept! All projects have been categorized into different categories. <hr>
+
+<b>Scrapers</b>
+
+- [Football Data Scrapers](https://github.com/rajatrc1705/Football-Scrapers) 🥅⚽🦶
 
 <b>Regression</b>
 
@@ -27,7 +31,3 @@ This is where most of my Data Science Projects are kept! All projects have been 
 
 - [Youtube Video Classification](https://github.com/rajatrc1705/DS_ML_Projects/tree/main/Youtube%20Classification) 📽
 - [News Article Sorting](https://github.com/rajatrc1705/News-Article-Sorting) 🗞️📰
-
-<b>Scrapers</b>
-
-- [Football Data Scrapers](https://github.com/rajatrc1705/Football-Scrapers) 🥅⚽🦶
