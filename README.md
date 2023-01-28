@@ -9,7 +9,7 @@ This is where most of my Data Science Projects are kept! All projects have been 
 <b>Scrapers</b>
 
 - [Football Data Scrapers](https://github.com/rajatrc1705/Football-Scrapers) 🥅⚽🦶
-    - [EPL Ksggle Silver Medal... 34k+ views | 6000+ downloads](https://github.com/rajatrc1705/Football-Scrapers)
+    - [EPL Kaggle Silver Medal! 34k+ views | ~6000 downloads](https://github.com/rajatrc1705/Football-Scrapers)
 
 <b>Regression</b>
 
