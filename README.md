@@ -19,6 +19,10 @@ Languages: R, Python
 
 This is where most of my Data Science Projects are kept! All projects have been categorized into different categories. <hr>
 
+<b>Dashboards</b>
+
+- [PowerBI](https://github.com/rajatrc1705/DS_ML_Projects/tree/main/Dashboards)
+
 <b>Scrapers</b>
 
 - [Football Data Scrapers](https://github.com/rajatrc1705/Football-Scrapers) 🥅⚽🦶
