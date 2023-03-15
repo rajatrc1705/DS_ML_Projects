@@ -3,22 +3,26 @@
 import pandas as pd 
 import numpy as np
 import xgboost as xgb
+
 from sklearn.svm import SVC
 from sklearn import preprocessing, decomposition, model_selection, metrics, pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import log_loss, f1_score
 
 data = pd.read_csv('cleaned_data.csv')
 
 X = data[['description']]
 y = data[['category']]
 
-from sklearn.preprocessing import LabelEncoder
+
+
 label_encoder = LabelEncoder()
 y = label_encoder.fit_transform(data.category.values)
 
-from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(data.description.values, y,  
                                                 stratify=y, random_state=0, 
                                                   test_size=0.25, shuffle=True)
@@ -49,7 +53,6 @@ def generateDifferent(predictions):
     
     return y_preds
 
-from sklearn.metrics import log_loss, f1_score
 
 print("Logistic Regression")
 print("Log Loss: {:.5f}".format(log_loss(y_test, predictions)))
