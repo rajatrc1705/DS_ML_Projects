@@ -6,10 +6,12 @@ This is where most of my Data Science Projects are kept! All projects have been 
 
 - [PowerBI](https://github.com/rajatrc1705/DS_ML_Projects/tree/main/Dashboards)
 
-<b>Data Collection</b>
+<b>Data Collection and Cleaning</b>
 
 - [Football Data Scrapers](https://github.com/rajatrc1705/Football-Scrapers) 🥅⚽🦶
     - [EPL Dataset | Kaggle Silver Medal! ~ 40k views | ~ 6500 downloads](https://github.com/rajatrc1705/Football-Scrapers)
+- [YouTube Data Scraper](https://github.com/rajatrc1705/DS_ML_Projects/tree/main/Youtube%20Classification)
+
 
 <b>Regression</b>
 
